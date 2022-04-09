@@ -1,10 +1,14 @@
-import { Button } from 'react-bootstrap'
+import Layout from './layouts/Layout'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
   return (
     <>
-     <h2>hello World</h2>
-     <Button variant="primary">Primary</Button>{' '}
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Layout/>} />
+    </Routes>
+    </BrowserRouter>
     </>
   );
 }

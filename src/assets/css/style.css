@@ -1,0 +1,7 @@
+.bg-img{
+    background: url(../images/login.png) no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:500px;
+}
